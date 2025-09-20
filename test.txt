@@ -1,0 +1,41 @@
+Create a React Native Expo application named "SMJ" with the following features:
+
+Login Page:
+
+Fields: Mobile Number, Password.
+Validate both fields (cannot be empty).
+On "Sign In" button click, call a REST API to validate mobile number and password.
+If validation succeeds, redirect to Dashboard page.
+If validation fails, show an error message.
+Add app logo i have attached and app name "SMJ" at the top.
+Styling should use the main color from the logo.
+Dashboard Page:
+
+Display three cards:
+Card 1: 1 gram Gold Price (from REST API).
+Card 2: 8 gram Gold Price (from REST API).
+Card 3: 1 gram Silver Price (from REST API).
+Fetch prices from REST API every 10 minutes and automatically refresh.
+Show “Loading…” text while fetching.
+Add a "Logout" button that redirects back to the Login page.
+Styling should match the logo color theme.
+General Requirements:
+
+Use the current/latest stable versions of Expo, React Navigation.
+Use React Navigation for navigation between Login and Dashboard.
+Design should be mobile responsive, clean, and modern.
+Use card style with padding, shadow, and rounded corners for prices.
+All UI components should follow the app branding with logo-based color scheme.
+Branding:
+
+App Name: SMJ
+Logo: use provided logo.
+login API : https://smjuthangarai.in/RestApi/restApiPHP.php?option=LoginVerifyCustomer&mobileNumber=8526271919&password=Blotus@123
+Price API : https://smjuthangarai.in/RestApi/restApiPHP.php?option=PriceListToday
+
+
+
+
+npm install -g @expo/cli
+npm install -g eas-cli
+eas build --platform android --profile preview
