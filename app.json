@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SMJ",
+    "slug": "arun",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ragukarthik.arun",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15251855-9849-4b94-9902-161817d5d344"
+      }
+    }
+  }
+}
